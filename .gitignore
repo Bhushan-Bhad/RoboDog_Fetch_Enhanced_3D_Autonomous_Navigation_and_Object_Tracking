@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+devel/
+install/
+log/
+
+# ROS-related files
+*.pyc
+*.swp
+*.swo
+*.bak
+*.log
+
+# CMake & catkin-related files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.so
+
+# ROS dependencies from source
+src/**/.catkin_tools
+
+# VS Code and CLion settings (optional)
+.vscode/
+.idea/
+
+# MacOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
